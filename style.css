@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(https://images.unsplash.com/37/IHLjdHdzSvi0rgUMMlSK_TE3_0286.jpg?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlfHx8fHx8MTcxNDg2OTYwNg&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.div__01 {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    width: 280px;
+    height: 365px;
+    padding: 0px 20px;
+    border: 1px solid #9b9b9b;
+    border-radius: 8px;
+    backdrop-filter: blur(15px);
+    margin-top: 150px;
+    
+}
+.container > form {
+    text-align: center;
+}
+.container > form > h1 {
+    margin-top: 50px;
+    color: white;
+}
+
+.input__email {
+    margin-top: 25px;
+    height: 35px;
+    font-size: 15px;
+    outline: none;
+    padding: 5px 10px;
+    background-color: transparent;
+    border: 1px solid #9b9b9b;
+    border-radius: 7px;
+    color: white;
+
+}
+
+.input__email::placeholder {
+    color: white;
+}
+
+.input__password {
+    margin-top: 20px;
+    height: 35px;
+    font-size: 15px;
+    outline: none;
+    padding: 5px 10px;
+    background-color: transparent;
+    border: 1px solid #9b9b9b;
+    border-radius: 7px;
+    color: white;
+}
+
+.input__password::placeholder {
+    color: white;
+}
+
+.input__submit {
+    margin-top: 25px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    width: 190px;
+    height: 35px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #2E5945;
+    color: white;
+    
+}
+
+.div3__cadastro > p {
+    font-weight: 50;
+    margin-top: 20px;
+    color: white;
+}
+
+.div3__cadastro > p > a {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
